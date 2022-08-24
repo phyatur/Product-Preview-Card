@@ -7,29 +7,27 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
-@media screen and (min-width:1440px) {
     .container {
+        /* border: 2px dotted green; */
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        max-width: 600px;
+        width: 600px;
+        height: 455px;
         background-color: hsl(0, 0%, 100%);
-        /* border: 2px solid blue; */
     }
+
+    .mobile {
+        display: none;
+    } 
 
     .desktop {
         width: 300px;
     }
 
-    .mobile {
-        display: none  ;
-    }
-
-    .description{
-        display: flex;
+    .description {
+        display : flex;
         flex-direction: column;
-        /* justify-content:space-evenly; */
-            padding-left: 25px;
+        justify-content: space-around;
+        padding-left: 20px;
     }
 
     p {
@@ -89,91 +87,5 @@ body {
     .cart-txt {
         color: white;
     }
-}
-
-/* @media screen and (min-width:375px) {
-        .desktop {
-            display: none;
-        }
-
-        .container {
-                    display: flex;
-                    width: 350px;
-                    flex-direction: column;
-                    background-color: hsl(0, 0%, 100%);
-                    /* border: 2px solid blue; 
-        }
-
-            img {
-                width: 350px;
-}
-
-        .description {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: flex-start;
-                            padding-left: 25px;
-                        }
-            
-                        p {
-                            font-family: 'Montserrat', sans-serif;
-                            font-size: 14px;
-                            color: hsl(228, 12%, 48%);
-                        }
-
-                        .para {
-                            padding-right: 30px;
-                        }
-            
-                        .title {
-                            letter-spacing: 3px;
-                            margin-top: 20px;
-                        }
-            
-                        h1,
-                        h2 {
-                            font-family: 'Fraunces', serif;
-                            font-weight: 700;
-                        }
-            
-                        h2 {
-                            margin-right: 20px;
-                            color: hsl(158, 36%, 37%);
-                            font-size: 32px;
-                        }
-            
-                        h3 {
-                            font-size: 12px;
-                            text-decoration: line-through;
-                            color: hsl(228, 12%, 48%);
-                        }
-            
-            
-                        .price {
-                            display: flex;
-                            align-items: center;
-                        }
-            
-                        .button {
-                            display: flex;
-                            align-items:center;
-                            justify-content: space-evenly;
-                            width: 300px;
-                            height: 50px;
-                            background-color: hsl(158, 36%, 37%);
-                            border-radius: 10px;
-                            margin-bottom: 20px;
-                        }
-            
-                        .svg {
-                            width: 15px;
-                        }
-            
-                        .cart-txt {
-                            color: white;
-                        }
-
-                    } */
-
 
 
