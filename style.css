@@ -69,20 +69,26 @@ body {
         align-items: center;
     }
 
+    .svg {
+        width: 15px;
+    }
+
     .button {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         width: 250px;
         height: 50px;
-        background-color: hsl(158, 36%, 37%);;
+        background-color: hsl(158, 36%, 37%);
         border-radius: 10px;
         margin-bottom: 20px;
     }
 
-    .svg {
-        width: 15px;
+    .button:active{
+        background-color: hsl(157, 60%, 16%);
     }
+
+
 
     .cart-txt {
         color: white;
